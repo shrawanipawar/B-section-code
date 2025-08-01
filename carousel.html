@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pretty Pink Nature Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffe6f0;
+      color: #5c2a52;
+    }
+
+    header {
+      background: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .carousel {
+      position: relative;
+      max-width: 80%;
+      margin: 40px auto;
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+
+    .slides {
+      display: flex;
+      width: 500%;
+      animation: slide 20s infinite;
+    }
+
+    .slides img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    @keyframes slide {
+      0%   { transform: translateX(0%); }
+      20%  { transform: translateX(0%); }
+      25%  { transform: translateX(-100%); }
+      45%  { transform: translateX(-100%); }
+      50%  { transform: translateX(-200%); }
+      70%  { transform: translateX(-200%); }
+      75%  { transform: translateX(-300%); }
+      95%  { transform: translateX(-300%); }
+      100% { transform: translateX(0%); }
+    }
+
+    section {
+      text-align: center;
+      padding: 30px;
+    }
+
+    .about {
+      max-width: 800px;
+      margin: auto;
+      background: #fff0f5;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ffc0cb;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🌸 My Pink webpage 🌸
+  </header>
+
+  <div class="carousel">
+    <div class="slides">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Scenic Forest">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach Sunset">
+      <img src="https://images.unsplash.com/photo-1493244040629-496f6d136cc3" alt="Mountain Lake">
+      <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="Pink Sky">
+    </div>
+  </div>
+
+  <section>
+    <div class="about">
+      <h2>About This Page</h2>
+      <p>This webpage is a soft blend of pink and nature. It’s designed to showcase the beauty of scenic landscapes while maintaining an aesthetic and peaceful vibe. Enjoy the carousel of calming nature views 🌿🌅🌸</p>
+    </div>
+  </section>
+
+  <footer>
+    Made with 💖 by Shrawani Pawar
+  </footer>
+</body>
+</html>
